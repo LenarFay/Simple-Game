@@ -1,0 +1,85 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"attack_","type":"uint256"},
+				{"name":"defence_","type":"uint256"},
+				{"name":"helth_","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "rage",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeAttack",
+			"inputs": [
+				{"name":"myAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeDefence",
+			"inputs": [
+				{"name":"attack","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "objectAttack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"objectAttack","type":"uint256"}
+			]
+		},
+		{
+			"name": "objectDefence",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"objectDefence","type":"uint256"}
+			]
+		},
+		{
+			"name": "objectHelth",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"objectHelth","type":"uint256"}
+			]
+		},
+		{
+			"name": "callerAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"callerAddress","type":"address"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"objectAttack","type":"uint256"},
+		{"name":"objectDefence","type":"uint256"},
+		{"name":"objectHelth","type":"uint256"},
+		{"name":"callerAddress","type":"address"}
+	]
+}
